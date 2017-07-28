@@ -19,16 +19,15 @@
 -----
 ![baidu-logo](http://www.baidu.com/img/bdlogo.gif)
 
-```+
-#include <stdio.h>
-
-int main(){
-	printf("hello, world")!
-}
+```diff
++ #include <stdio.h>
++ int main(){
++ 	printf("hello, world")!
++ }
 ```
-```-
-def test():
-    print hello
+```diff
+- def test():
+-     print hello
 ```
 * 树
 	* 平衡二叉树
